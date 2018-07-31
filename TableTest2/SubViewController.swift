@@ -16,6 +16,8 @@ class SubViewController: UIViewController{
     // @IBOutlet var imageView: UIImage!
     var selectedImg: UIImage!
     
+    //戻るボタンはセグエで繋げているのでこちらのファイルにプログラムはない
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         

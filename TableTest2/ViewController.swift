@@ -42,6 +42,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         label1.text = "No." + String(indexPath.row + 1)
         
         let label2 = cell.viewWithTag(3) as! UILabel
+        //label2.text = String(IndexPath)
+        //label2.text = label2Array[indexPath.row] as? String
        label2.text = String(describing: label2Array[indexPath.row])
         //label2.text = String(description: label2Array[15])
         
